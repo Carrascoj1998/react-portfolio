@@ -18,6 +18,12 @@
     color: #ff247d;
 }
 
+.links {
+    display: flex;
+    align-items: center;
+}
+
 .links a{
     color: white;
+    margin-right: 10px;
 }

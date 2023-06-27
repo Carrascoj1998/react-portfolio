@@ -4,7 +4,7 @@ import classes from "./css/AboutMe.module.css"
 function AboutMe(){
 
     return (
-        <Card>
+        <Card >
             <div className={classes.container}>
                 <h2>I embarked on my programming journey after graduating from Eastview High School in 2017.
                     Eager to dive into the world of software development, I enrolled in a bootcamp and later pursued a full-stack developer program at the University of Minnesota.
