@@ -1,0 +1,23 @@
+
+.container {
+    padding: 20px;
+}
+
+.intro h1 {
+    font-size: 30px;
+    line-height: 1.4;
+    color: #ff247d;
+    padding-top: 150px;
+    position: relative;
+    margin-left: 15%;
+
+}
+
+.intro span {
+    font-size: 18px;
+    color: #ff247d;
+}
+
+.links a{
+    color: white;
+}

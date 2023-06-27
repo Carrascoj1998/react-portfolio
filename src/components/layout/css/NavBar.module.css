@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&family=Pacifico&display=swap');
+.header {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 30px;
+    display: flex;
+    align-items: baseline;
+}
+
+.header li {
+    margin-left: 3rem;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:  whitesmoke;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+    color: white;
+}
+
+.badge {
+    background-color: #cc2062;
+    color: white;
+    border-radius: 12px;
+    padding: 0 1rem;
+    margin-left: 0.5rem;
+}
