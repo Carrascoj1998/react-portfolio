@@ -15,7 +15,6 @@ function ContactResume() {
                 <h3 className={classes.h3}>
                     Resume:
                 </h3>
-
             </div>
         </FormCard>
     );
