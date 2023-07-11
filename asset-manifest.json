@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Carrascoj1998/react-portfolio.git/static/css/main.cd56d386.css",
-    "main.js": "/Carrascoj1998/react-portfolio.git/static/js/main.f79a08f7.js",
-    "index.html": "/Carrascoj1998/react-portfolio.git/index.html",
-    "main.cd56d386.css.map": "/Carrascoj1998/react-portfolio.git/static/css/main.cd56d386.css.map",
-    "main.f79a08f7.js.map": "/Carrascoj1998/react-portfolio.git/static/js/main.f79a08f7.js.map"
+    "main.css": "/react-portfolio/static/css/main.cd56d386.css",
+    "main.js": "/react-portfolio/static/js/main.f79a08f7.js",
+    "index.html": "/react-portfolio/index.html",
+    "main.cd56d386.css.map": "/react-portfolio/static/css/main.cd56d386.css.map",
+    "main.f79a08f7.js.map": "/react-portfolio/static/js/main.f79a08f7.js.map"
   },
   "entrypoints": [
     "static/css/main.cd56d386.css",
