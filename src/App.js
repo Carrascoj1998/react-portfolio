@@ -9,7 +9,7 @@ function App() {
     <Container>
         <Layout>
             <Routes>
-                <Route path="/" element={<MainPage />} />
+                <Route path="/react-portfolio" element={<MainPage />} />
                 <Route path="/contact" element={<ContactResume />} />
             </Routes>
         </Layout>

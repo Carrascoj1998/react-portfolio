@@ -9,7 +9,7 @@ function Navbar(){
             <nav>
                 <ul>
                     <li>
-                        <Link to={"/"}>Home</Link>
+                        <Link to={"/react-portfolio"}>Home</Link>
                     </li>
                     <li>
                         <Link to={"/contact"}>Contact</Link>
