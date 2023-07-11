@@ -1,26 +1,11 @@
 .contactResumeCard {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
     background-color: #202020;
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    height: 550px;
-
-}
-
-@media (min-width: 768px) {
-    .contactResumeCard {
-        width: 600px;
-        transform: translate(-50%, -50%);
-        margin-top: 60px;
-    }
-}
-
-@media (min-width: 1200px) {
-
-    .contactResumeCard {
-        width: 800px;
-    }
+    width: 800px;
+    height: 450px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

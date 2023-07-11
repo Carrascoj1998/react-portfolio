@@ -12,6 +12,9 @@ function ContactResume() {
                 <h2 className={classes.h2}>
                     Email: joncarrasco1998@gmail.com
                 </h2>
+                <h3 className={classes.h3}>
+                    Resume:
+                </h3>
 
             </div>
         </FormCard>
