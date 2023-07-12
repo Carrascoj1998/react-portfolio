@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh; /* Adjust the height as needed */
+    height: 40vh;
     font-family: 'IBM Plex Serif', serif;
     font-family: 'Karla', sans-serif;
     padding: 20px;
@@ -27,3 +27,39 @@
     color: white;
     text-align: center;
 }
+
+.showButton {
+    background-color: #ff247d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.closeButton {
+    background-color: #ff247d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 1.4rem; /* Adjust the font size as needed */
+    }
+
+    .h2 {
+        font-size: 1.2rem; /* Adjust the font size as needed */
+    }
+
+    .h3 {
+        font-size: 1rem; /* Adjust the font size as needed */
+    }
+}
+

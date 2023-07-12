@@ -1,7 +1,19 @@
 import FormCard from "../components/ui/FormCard";
 import classes from "./css/Contact&Resume.module.css";
+import React, { useState } from 'react';
+import myPDF from "../images/Current Resume .docx (1) copy.pdf";
 
 function ContactResume() {
+    const [showPDF, setShowPDF] = useState(false);
+
+    const handlePDFClick = () => {
+        setShowPDF(true);
+    };
+
+    const handleCloseClick = () => {
+        setShowPDF(false);
+    };
+
     return (
         <FormCard>
             <div className={classes.container}>
@@ -14,7 +26,22 @@ function ContactResume() {
                 </h2>
                 <h3 className={classes.h3}>
                     Resume:
+                    {showPDF ? (
+                        <div>
+                            <button className={classes.closeButton} onClick={handleCloseClick}>
+                                Close PDF
+                            </button>
+                            <embed src={myPDF} type="application/pdf" width="100%" height="800px" />
+                        </div>
+                    ) : (
+                        <button className={classes.showButton} onClick={handlePDFClick}>
+                            Show PDF
+                        </button>
+                    )}
+
+
                 </h3>
+
             </div>
         </FormCard>
     );

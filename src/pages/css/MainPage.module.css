@@ -1,34 +1,457 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&family=Karla:wght@200&family=Pacifico&display=swap');
 
 .container {
-    padding: 20px;
     font-family: 'IBM Plex Serif', serif;
     font-family: 'Karla', sans-serif;
-
-
 }
 
-.intro h1 {
-    font-size: 30px;
-    line-height: 1.4;
-    color: #ff247d;
+.intro {
     padding-top: 150px;
     position: relative;
     margin-left: 15%;
 
+
 }
 
-.intro span {
-    font-size: 18px;
+
+
+.intro h1 {
+
+    line-height: 1.0;
     color: #ff247d;
+    margin-bottom: 40px;
+    padding-left: 100px;
+
+
+}
+
+.intro .profileImage {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: -20%;
+    top: 300px;
+    transform: translateY(-50%);
+    margin-right: 20px;
+}
+
+
+
+.intro span {
+    display: block;
+    font-size: 1.6rem;
+    color: #ff247d;
+
+
 }
 
 .links {
     display: flex;
     align-items: center;
+    padding-left: 100px;
+
 }
 
-.links a{
+.links a {
     color: white;
     margin-right: 10px;
+    font-size: 2rem;
 }
+
+
+@media (max-width: 1399px) {
+    .intro {
+        padding-top: 150px;
+        position: relative;
+        margin-left: 17%;
+    }
+
+    .intro h1 {
+        line-height: 1.0;
+        color: #ff247d;
+        margin-bottom: 40px;
+        padding-left: 10px;
+        font-size: 2rem;
+    }
+
+    .intro .profileImage {
+        width: 250px;
+        height: auto;
+        position: absolute;
+        left: -30%;
+        top: 300px;
+        transform: translateY(-50%);
+        margin-right: 20px;
+    }
+
+    .intro span {
+        display: block;
+        font-size: 1.6rem;
+        color: #ff247d;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1315px) {
+    .intro {
+        padding-top: 150px;
+        position: relative;
+        margin-left: 20%;
+    }
+
+    .intro h1 {
+        line-height: 1.0;
+        color: #ff247d;
+        margin-bottom: 40px;
+        padding-left: 5px;
+        font-size: 2rem;
+    }
+
+    .intro .profileImage {
+        width: 250px;
+        height: auto;
+        position: absolute;
+        left: -30%;
+        top: 300px;
+        transform: translateY(-50%);
+        margin-right: 20px;
+    }
+
+    .intro span {
+        display: block;
+        font-size: 1.2rem;
+        color: #ff247d;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        padding-left: 5px;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 150px;
+        position: relative;
+        margin-left: 30%;
+
+    }
+
+    .intro h1 {
+        text-align: center;
+        line-height: 1.0;
+        color: #ff247d;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        font-size: 2rem;
+    }
+
+    .intro .profileImage {
+        width: 300px;
+        height: auto;
+        margin-top: -80px;
+
+    }
+
+    .intro span {
+        display: block;
+        font-size: 1.6rem;
+        color: #ff247d;
+        text-align: center;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+
+    .links a {
+        color: white;
+        margin-right: 10px;
+        font-size: 1.2rem;
+    }
+
+}
+
+    @media (max-width: 991px) {
+        .intro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 150px;
+            position: relative;
+            margin-left: 30%;
+
+        }
+
+        .intro h1 {
+            text-align: center;
+            line-height: 1.0;
+            color: #ff247d;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            font-size: 2rem;
+        }
+
+        .intro .profileImage {
+            width: 250px;
+            height: auto;
+            margin-top: -50px;
+
+        }
+
+        .intro span {
+            display: block;
+            font-size: 1.6rem;
+            color: #ff247d;
+            text-align: center;
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+
+        }
+
+
+
+    }
+
+    @media (max-width: 768px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 150px;
+        position: relative;
+        margin-left: 30%;
+
+    }
+
+    .intro h1 {
+        text-align: center;
+        line-height: 1.0;
+        color: #ff247d;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        font-size: 2rem;
+    }
+
+    .intro .profileImage {
+        width: 180px;
+        height: auto;
+        margin-top: -50px;
+
+    }
+
+    .intro span {
+        display: block;
+        font-size: 1.2rem;
+        color: #ff247d;
+        text-align: center;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .links a {
+        color: white;
+        margin-right: 10px;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 150px;
+        position: relative;
+        margin-left: 30%;
+
+    }
+
+    .intro h1 {
+        text-align: center;
+        line-height: 1.0;
+        color: #ff247d;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        font-size: 2rem;
+    }
+
+    .intro .profileImage {
+        width: 150px;
+        height: auto;
+        margin-top: -50px;
+
+    }
+
+    .intro span {
+        display: block;
+        font-size: 1.2rem;
+        color: #ff247d;
+        text-align: center;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .links a {
+        color: white;
+        margin-right: 10px;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 150px;
+        position: relative;
+        margin-left: 30%;
+
+    }
+
+    .intro h1 {
+        text-align: center;
+        line-height: 1.0;
+        color: #ff247d;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        font-size: 2rem;
+    }
+
+    .intro .profileImage {
+        width: 150px;
+        height: auto;
+        margin-top: -50px;
+
+    }
+
+    .intro span {
+        display: block;
+        font-size: 1.0rem;
+        color: #ff247d;
+        text-align: center;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .links a {
+        color: white;
+        margin-right: 10px;
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 150px;
+        position: relative;
+        margin-left: 30%;
+
+    }
+
+    .intro h1 {
+        text-align: center;
+        line-height: 1.0;
+        color: #ff247d;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        font-size: 2rem;
+    }
+
+    .intro .profileImage {
+        width: 100px;
+        height: auto;
+        margin-top: -50px;
+
+    }
+
+    .intro span {
+        display: block;
+        font-size: 0.9rem;
+        color: #ff247d;
+        text-align: center;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .links a {
+        color: white;
+        margin-right: 10px;
+        font-size: 1.2rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
